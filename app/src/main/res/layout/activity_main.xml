@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="405dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="-2dp"
+        android:paddingBottom="300dp"
+        app:srcCompat="@drawable/slllogo" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:backgroundTint="#4CAF50"
+        android:focusable="false"
+        android:padding="15dp"
+        android:text="Users"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:padding="15dp"
+        android:backgroundTint="#03A9F4"
+        android:focusable="false"
+        android:text="Start a Scan"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#FFCA28"
+        android:focusable="false"
+        android:padding="15dp"
+        android:text="Scans History"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="358dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/white"
+        android:text="!"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
