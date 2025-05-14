@@ -11,3 +11,7 @@ captures/
 .DS_Store
 Thumbs.db
 
+# Google services config
+app/google-services.json
+
+
